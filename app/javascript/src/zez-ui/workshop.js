@@ -203,8 +203,6 @@ var app = new Vue({
             } else if (type === "eventTeam") {
                 keywordObj = this.eventTeamKw;
                 sort = false;
-            } else if (type === "BoolLiteral") {
-                keywordObj = {"true": this.valueFuncKw.true, "false": this.valueFuncKw.false};
             } else {
                 keywordObj = this.valueFuncKw;
             }
